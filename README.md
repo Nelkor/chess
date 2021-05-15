@@ -1,3 +1,1 @@
 # chess
-
-Readme of 'frontend'
