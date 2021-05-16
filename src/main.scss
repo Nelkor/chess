@@ -1,36 +1,8 @@
-html {
-  font-family: sans-serif;
-  color: #333;
-}
+@import '~@render/render';
 
 body {
   padding: 0;
   margin: 0;
   width: 100vw;
   height: 100vh;
-}
-
-canvas {
-  width: 10vw;
-  height: 10vh;
-  background: center / contain no-repeat url("./assets/board.png");
-}
-
-.demo-app {
-  width: 100%;
-  height: calc(100% - 100px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  h1 {
-    font-size: 26px;
-  }
-
-  p {
-    font-size: 20px;
-    margin: 0;
-  }
 }
