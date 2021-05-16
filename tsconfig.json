@@ -10,7 +10,9 @@
     "typeRoots": ["node_modules/@types", "index.d.ts"],
     "baseUrl": "src",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@core/*": ["./modules/core/*"],
+      "@render/*": ["./modules/render/*"]
     }
   }
 }
