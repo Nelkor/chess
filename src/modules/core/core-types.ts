@@ -1,6 +1,6 @@
 type Point = [number, number]
 
-enum UnitKinds {
+export enum UnitKinds {
   king,
   queen,
   rook,
@@ -9,7 +9,7 @@ enum UnitKinds {
   pawn,
 }
 
-enum Colors {
+export enum Colors {
   black,
   white,
 }
@@ -29,7 +29,7 @@ type Knight = UnitBasics & { kind: UnitKinds.knight }
 
 type Pawn = UnitBasics & {
   kind: UnitKinds.pawn
-  justHasMadeDoubleMove: boolean
+  hasJustMadeDoubleMove: boolean
 }
 
 export type ChessUnit = King | Queen | Rook | Bishop | Knight | Pawn
